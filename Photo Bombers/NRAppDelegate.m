@@ -7,13 +7,32 @@
 //
 
 #import "NRAppDelegate.h"
+#import "NRPhotoViewController.h"
+
+#import <SimpleAuth/SimpleAuth.h>
 
 @implementation NRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    SimpleAuth.configuration[@"instagram"] = @{
+       @"client_id" : @"8185de11ff9645b689b874f28b84c49c",
+       SimpleAuthRedirectURIKey : @"photobombers://auth/instagram"
+       };
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    NRPhotoViewController *photoViewController = [[NRPhotoViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:photoViewController];
+    
+    UINavigationBar *navigationBar = navigationController.navigationBar;
+    navigationBar.barTintColor = [UIColor colorWithRed:242.0 / 255.0 green:122.0 / 255.0 blue:87.0 / 255.0 alpha:1.0];
+    navigationBar.barStyle = UIBarStyleBlackOpaque;
+    navigationBar.tintColor = [UIColor whiteColor];
+
+    
+    self.window.rootViewController = navigationController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

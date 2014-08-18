@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181CD61F1961F911003FFFBF /* NRPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD61E1961F911003FFFBF /* NRPhotoController.m */; };
+		181CD62219622801003FFFBF /* NRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD62119622801003FFFBF /* NRDetailViewController.m */; };
+		181CD62519631B32003FFFBF /* NRPresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD62419631B32003FFFBF /* NRPresentDetailTransition.m */; };
+		181CD62819632102003FFFBF /* NRDismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD62719632102003FFFBF /* NRDismissDetailTransition.m */; };
+		181CD62B19638898003FFFBF /* NRMetadataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD62A19638898003FFFBF /* NRMetadataView.m */; };
 		18DE5EC3195DB791006E771A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE5EC2195DB791006E771A /* Foundation.framework */; };
 		18DE5EC5195DB791006E771A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE5EC4195DB791006E771A /* CoreGraphics.framework */; };
 		18DE5EC7195DB791006E771A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE5EC6195DB791006E771A /* UIKit.framework */; };
@@ -19,6 +24,9 @@
 		18DE5EDE195DB791006E771A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE5EC6195DB791006E771A /* UIKit.framework */; };
 		18DE5EE6195DB791006E771A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18DE5EE4195DB791006E771A /* InfoPlist.strings */; };
 		18DE5EE8195DB791006E771A /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5EE7195DB791006E771A /* Photo_BombersTests.m */; };
+		18DE5EF3195DB7F3006E771A /* NRPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5EF2195DB7F3006E771A /* NRPhotoViewController.m */; };
+		18DE5EF6195DC68A006E771A /* NRPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE5EF5195DC68A006E771A /* NRPhotoCell.m */; };
+		616638B3E3794B8D8D71486B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE9175FD6749358AD54DDC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114A1369122B47C59ACA5B9A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		181CD61D1961F911003FFFBF /* NRPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NRPhotoController.h; path = ../NRPhotoController.h; sourceTree = "<group>"; };
+		181CD61E1961F911003FFFBF /* NRPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NRPhotoController.m; path = ../NRPhotoController.m; sourceTree = "<group>"; };
+		181CD62019622801003FFFBF /* NRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDetailViewController.h; sourceTree = "<group>"; };
+		181CD62119622801003FFFBF /* NRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDetailViewController.m; sourceTree = "<group>"; };
+		181CD62319631B32003FFFBF /* NRPresentDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRPresentDetailTransition.h; sourceTree = "<group>"; };
+		181CD62419631B32003FFFBF /* NRPresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRPresentDetailTransition.m; sourceTree = "<group>"; };
+		181CD62619632102003FFFBF /* NRDismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRDismissDetailTransition.h; sourceTree = "<group>"; };
+		181CD62719632102003FFFBF /* NRDismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRDismissDetailTransition.m; sourceTree = "<group>"; };
+		181CD62919638898003FFFBF /* NRMetadataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRMetadataView.h; sourceTree = "<group>"; };
+		181CD62A19638898003FFFBF /* NRMetadataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRMetadataView.m; sourceTree = "<group>"; };
 		18DE5EBF195DB791006E771A /* Photo Bombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Bombers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DE5EC2195DB791006E771A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18DE5EC4195DB791006E771A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +67,12 @@
 		18DE5EE3195DB791006E771A /* Photo BombersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo BombersTests-Info.plist"; sourceTree = "<group>"; };
 		18DE5EE5195DB791006E771A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18DE5EE7195DB791006E771A /* Photo_BombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BombersTests.m; sourceTree = "<group>"; };
+		18DE5EF1195DB7F3006E771A /* NRPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NRPhotoViewController.h; path = ../NRPhotoViewController.h; sourceTree = "<group>"; };
+		18DE5EF2195DB7F3006E771A /* NRPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NRPhotoViewController.m; path = ../NRPhotoViewController.m; sourceTree = "<group>"; };
+		18DE5EF4195DC68A006E771A /* NRPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRPhotoCell.h; sourceTree = "<group>"; };
+		18DE5EF5195DC68A006E771A /* NRPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRPhotoCell.m; sourceTree = "<group>"; };
+		18DE5EF7195F7D75006E771A /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		56CE9175FD6749358AD54DDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 				18DE5EC5195DB791006E771A /* CoreGraphics.framework in Frameworks */,
 				18DE5EC7195DB791006E771A /* UIKit.framework in Frameworks */,
 				18DE5EC3195DB791006E771A /* Foundation.framework in Frameworks */,
+				616638B3E3794B8D8D71486B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +107,7 @@
 				18DE5EE1195DB791006E771A /* Photo BombersTests */,
 				18DE5EC1195DB791006E771A /* Frameworks */,
 				18DE5EC0195DB791006E771A /* Products */,
+				114A1369122B47C59ACA5B9A /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +127,7 @@
 				18DE5EC4195DB791006E771A /* CoreGraphics.framework */,
 				18DE5EC6195DB791006E771A /* UIKit.framework */,
 				18DE5EDB195DB791006E771A /* XCTest.framework */,
+				56CE9175FD6749358AD54DDC /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +135,23 @@
 		18DE5EC8195DB791006E771A /* Photo Bombers */ = {
 			isa = PBXGroup;
 			children = (
+				181CD61D1961F911003FFFBF /* NRPhotoController.h */,
+				181CD61E1961F911003FFFBF /* NRPhotoController.m */,
 				18DE5ED1195DB791006E771A /* NRAppDelegate.h */,
 				18DE5ED2195DB791006E771A /* NRAppDelegate.m */,
+				18DE5EF1195DB7F3006E771A /* NRPhotoViewController.h */,
+				18DE5EF2195DB7F3006E771A /* NRPhotoViewController.m */,
+				18DE5EF4195DC68A006E771A /* NRPhotoCell.h */,
+				18DE5EF5195DC68A006E771A /* NRPhotoCell.m */,
+				181CD62019622801003FFFBF /* NRDetailViewController.h */,
+				181CD62119622801003FFFBF /* NRDetailViewController.m */,
+				181CD62319631B32003FFFBF /* NRPresentDetailTransition.h */,
+				181CD62419631B32003FFFBF /* NRPresentDetailTransition.m */,
+				181CD62619632102003FFFBF /* NRDismissDetailTransition.h */,
+				181CD62719632102003FFFBF /* NRDismissDetailTransition.m */,
+				181CD62919638898003FFFBF /* NRMetadataView.h */,
+				181CD62A19638898003FFFBF /* NRMetadataView.m */,
+				18DE5EF7195F7D75006E771A /* Podfile */,
 				18DE5ED4195DB791006E771A /* Images.xcassets */,
 				18DE5EC9195DB791006E771A /* Supporting Files */,
 			);
@@ -151,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18DE5EEB195DB791006E771A /* Build configuration list for PBXNativeTarget "Photo Bombers" */;
 			buildPhases = (
+				8FBE032CBF444EFE90330798 /* Check Pods Manifest.lock */,
 				18DE5EBB195DB791006E771A /* Sources */,
 				18DE5EBC195DB791006E771A /* Frameworks */,
 				18DE5EBD195DB791006E771A /* Resources */,
+				1D3CBC6922BF4FF3A1BCF1F3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,13 +280,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D3CBC6922BF4FF3A1BCF1F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FBE032CBF444EFE90330798 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18DE5EBB195DB791006E771A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181CD62819632102003FFFBF /* NRDismissDetailTransition.m in Sources */,
+				18DE5EF3195DB7F3006E771A /* NRPhotoViewController.m in Sources */,
+				181CD61F1961F911003FFFBF /* NRPhotoController.m in Sources */,
 				18DE5ED3195DB791006E771A /* NRAppDelegate.m in Sources */,
+				181CD62219622801003FFFBF /* NRDetailViewController.m in Sources */,
+				181CD62519631B32003FFFBF /* NRPresentDetailTransition.m in Sources */,
+				18DE5EF6195DC68A006E771A /* NRPhotoCell.m in Sources */,
 				18DE5ECF195DB791006E771A /* main.m in Sources */,
+				181CD62B19638898003FFFBF /* NRMetadataView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +440,7 @@
 		};
 		18DE5EEC195DB791006E771A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114A1369122B47C59ACA5B9A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -368,6 +454,7 @@
 		};
 		18DE5EED195DB791006E771A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114A1369122B47C59ACA5B9A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +525,7 @@
 				18DE5EED195DB791006E771A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DE5EEE195DB791006E771A /* Build configuration list for PBXNativeTarget "Photo BombersTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +534,7 @@
 				18DE5EF0195DB791006E771A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
